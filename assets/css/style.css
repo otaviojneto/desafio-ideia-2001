@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.navigation {
+  background-color: #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.navigation .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .content .logo {
+  max-width: 200px;
+}
+.navigation .content .logo img {
+  width: 100%;
+}
+.navigation .content .menu .item-menu .item {
+  color: #acacac;
+  padding: 12px;
+  transition: .15s ease-in-out;
+}
+.navigation .content .menu .item-menu .item:hover {
+  border-bottom: 3px solid #f08910;
+  color: #000;
+}
+.navigation .content .info-user {
+  align-items: center;
+  display: flex;
+}
+.navigation .content .info-user img {
+  max-width: 40px;
+}
+.navigation .content .info-user .user-status {
+  margin-left: 12px;
+}
+.navigation .content .info-user .user-status .user {
+  font-size: 14px;
+}
+.navigation .content .info-user .user-status .status {
+  color: #f08910;
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+
+.box-head {
+  background-color: #f08910;
+  height: 200px;
+  margin-bottom: -100px;
+  width: 100%;
+}
+
+
+.box-default {
+  background-color: #fff;
+  padding: 140px 40px 240px;
+  margin-bottom: 80px;
+}
+.box-default .title {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.box-default .box-option {
+  align-items: center;
+  background-image: linear-gradient(#fff, #f1f1f0, #f1f1f1);
+  border: 1px solid #f1f1f1;
+  border-radius: 16px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: center;
+}
+.box-default .box-option .box-option-text {
+  margin-top: 30px;
+}
+
+.box-default .box-option {
+  align-items: center;
+  background-image: linear-gradient(#fff, #f1f1f0, #f1f1f1);
+  border: 1px solid #f1f1f1;
+  border-radius: 16px;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.centro {
+  position: absolute; 
+  left: 450px;
+}
+
+.footer {
+  background-color: #222;
+  color: #acacac;
+  padding: 16px;
+  text-align: center;
+}
+
+.footer .ideia {
+  color: #f08910;
+}
+
